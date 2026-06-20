@@ -58,11 +58,13 @@ The first run downloads Maven (~10 MB) and all dependencies (~80 MB) — give it
 
 ### Open the dashboard
 
-Once you see `Started UpiMeshApplication in X.XXX seconds`, open:
+Once you see `Started UpiMeshApplication in X.XXX seconds`, then a clickable link will generate in terminal:
 
 **http://localhost:8080**
 
-You'll get a dark dashboard with everything you need to drive the demo.
+Hover that link and start the dashboard by ctrl+click.
+
+If your environment blocks automatic browser launch, open that URL manually. To disable auto-open, set `upi.mesh.open-browser=false` in `src/main/resources/application.properties`.
 
 ### Stop the server
 

@@ -10,7 +10,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  *   ./mvnw spring-boot:run        (Linux/Mac)
  *   mvnw.cmd spring-boot:run      (Windows)
  *
- * Then open http://localhost:8080
+ * The dashboard opens automatically at http://localhost:8080
  */
 @SpringBootApplication
 public class UpiMeshApplication {
